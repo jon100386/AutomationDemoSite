@@ -1,0 +1,14 @@
+co/com/automationtesting/tasks/OpenUp.java
+ co.com.automationtesting.tasks.OpenUp
+co/com/automationtesting/tasks/FirstStepRegister.java
+ co.com.automationtesting.tasks.FirstStepRegister
+co/com/automationtesting/questions/Answer.java
+ co.com.automationtesting.questions.Answer
+co/com/automationtesting/userinterface/AutomationDemoSite.java
+ co.com.automationtesting.userinterface.AutomationDemoSite
+co/com/automationtesting/userinterface/FormRegisterAutomationTesting.java
+ co.com.automationtesting.userinterface.FormRegisterAutomationTesting
+co/com/automationtesting/userinterface/HomePageAutomationTesting.java
+ co.com.automationtesting.userinterface.HomePageAutomationTesting
+co/com/automationtesting/model/DataFormRegister.java
+ co.com.automationtesting.model.DataFormRegister
