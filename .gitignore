@@ -7,7 +7,6 @@
 .settings/
 
 
-
 # Intellij
 
 .idea/
@@ -45,9 +44,6 @@ out/
 *.war
 
 *.ear
-
-
-
 
 
 # Log file
