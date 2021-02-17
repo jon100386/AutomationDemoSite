@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo project usingSerenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="4b5c7d61885726d42723101c6637e86991ee51b1afb3d7223613420cc717367d.html">Automation Testing</a></span>
+                > <span class="truncate-60"><a
+                    href="d23de3543a8ac8ebb1622b07ed6c2430d950de528f995c829b6492f0380eb73d.html">Fill out the form for the respective registration </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-02-2021 21:32</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Automation Testing </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                a user wishes to register on the Automation Demo Site platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Fill out the form for the respective registration
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="32b28c4c6d6df1fb4aa678c444421919421ad162b588d71f53b066628c47d02a.png" title=" Given brandon opens the website for registration" width="1366"/>
+                <img src="32b28c4c6d6df1fb4aa678c444421919421ad162b588d71f53b066628c47d02a.png" title=" Brandon open up" width="1366"/>
+                <img src="32b28c4c6d6df1fb4aa678c444421919421ad162b588d71f53b066628c47d02a.png" title=" brandon opens the Automation demo site" width="1366"/>
+                <img src="32b28c4c6d6df1fb4aa678c444421919421ad162b588d71f53b066628c47d02a.png" title=" Brandon open up (completed)" width="1366"/>
+                <img src="32b28c4c6d6df1fb4aa678c444421919421ad162b588d71f53b066628c47d02a.png" title=" Given brandon opens the website for registration (completed)" width="1366"/>
+                <img src="77d9b1929bdb0ae92db94d1965886b846fb07aa7b5ba484d572511a4f7e063f0.png" title=" When brandon fills out the form for the respective registration
+| firstName | lastName | address | emailaddress | phone | languages | skills | country | selectcountry | yearbirth | monthbirth | daybirth | password |
+| John | Alvarez | Calle 70 | jonalv@gmail.com | 3104500101 | English | Java | Colombia | Australia | 1986 | March | 10 | Jonalv10+ |" width="1366"/>
+                <img src="77d9b1929bdb0ae92db94d1965886b846fb07aa7b5ba484d572511a4f7e063f0.png" title=" Brandon first step register" width="1366"/>
+                <img src="77d9b1929bdb0ae92db94d1965886b846fb07aa7b5ba484d572511a4f7e063f0.png" title=" brandon enters 'John' into First name" width="1366"/>
+                <img src="b78f8778723be2da449879d08557c2c30483d14f0d6a4ee6726d9f7494221e59.png" title=" brandon enters 'John' into First name (completed)" width="1366"/>
+                <img src="b78f8778723be2da449879d08557c2c30483d14f0d6a4ee6726d9f7494221e59.png" title=" brandon enters 'Alvarez' into last name" width="1366"/>
+                <img src="da2f3be6e5b503b6914131ed345ad273a0dd1b29d3700278573abfa5cc94f1d3.png" title=" brandon enters 'Alvarez' into last name (completed)" width="1366"/>
+                <img src="da2f3be6e5b503b6914131ed345ad273a0dd1b29d3700278573abfa5cc94f1d3.png" title=" brandon enters 'Calle 70' into Address" width="1366"/>
+                <img src="0e4253b8a93d49e4779ba03213491a82929fb321dc1f7bb7a463ad0b20203815.png" title=" brandon enters 'Calle 70' into Address (completed)" width="1366"/>
+                <img src="0e4253b8a93d49e4779ba03213491a82929fb321dc1f7bb7a463ad0b20203815.png" title=" brandon enters 'jonalv@gmail.com' into Email" width="1366"/>
+                <img src="bad3917f2acdbedaa985cedddf2d006a5a4d477e39c709cf828030535ca9d9d6.png" title=" brandon enters 'jonalv@gmail.com' into Email (completed)" width="1366"/>
+                <img src="bad3917f2acdbedaa985cedddf2d006a5a4d477e39c709cf828030535ca9d9d6.png" title=" brandon enters '3104500101' into Phone" width="1366"/>
+                <img src="264c6e2ea8c83b0ce1eaaf31b5dff89dc28c368a3a70dc9341af6d4b01936a7e.png" title=" brandon enters '3104500101' into Phone (completed)" width="1366"/>
+                <img src="264c6e2ea8c83b0ce1eaaf31b5dff89dc28c368a3a70dc9341af6d4b01936a7e.png" title=" brandon clicks on Gender" width="1366"/>
+                <img src="b29b6bb9d121effd0a1358c11f64a71276ab350167cfee34f4aada88c3b4319b.png" title=" brandon clicks on Gender (completed)" width="1366"/>
+                <img src="b29b6bb9d121effd0a1358c11f64a71276ab350167cfee34f4aada88c3b4319b.png" title=" brandon clicks on Hobbies" width="1366"/>
+                <img src="20c205055a8c78f48cd7a5ad24efe83ad96b2c1e9e198a35a5476ec6c6ba88d2.png" title=" brandon clicks on Hobbies (completed)" width="1366"/>
+                <img src="20c205055a8c78f48cd7a5ad24efe83ad96b2c1e9e198a35a5476ec6c6ba88d2.png" title=" brandon clicks on Campo donde se ingresa el idioma" width="1366"/>
+                <img src="a9197b7567c052d2c08c50ac795ec0e2863d6139b6f802de5ff5b519e257e35c.png" title=" brandon clicks on Campo donde se ingresa el idioma (completed)" width="1366"/>
+                <img src="097e179fa995577291c9af7e97a709f062754cb53191207044f080363f22d896.png" title=" brandon clicks on Campo donde se ingresa el idioma" width="1366"/>
+                <img src="8e12546ddee789aa09a169a5b7f93fdfd207ea2ebc37ae42a0a476ed08782440.png" title=" brandon clicks on Campo donde se ingresa el idioma (completed)" width="1366"/>
+                <img src="8e12546ddee789aa09a169a5b7f93fdfd207ea2ebc37ae42a0a476ed08782440.png" title=" brandon clicks on Skills" width="1366"/>
+                <img src="b50c576a497c4f021197bdfef57302b81d877b2c215a6d870e067e7c4595a8cf.png" title=" brandon clicks on Skills (completed)" width="1366"/>
+                <img src="b50c576a497c4f021197bdfef57302b81d877b2c215a6d870e067e7c4595a8cf.png" title=" brandon select Java on Skills" width="1366"/>
+                <img src="314412c1ab836b9596516e00c1dbf0cd8635a49ddae23fc079d16bd26417a346.png" title=" brandon select Java on Skills (completed)" width="1366"/>
+                <img src="314412c1ab836b9596516e00c1dbf0cd8635a49ddae23fc079d16bd26417a346.png" title=" brandon clicks on Country" width="1366"/>
+                <img src="a328f4984341df4e8a0db7d4438364db922a28ce11c07aa539a0ade2560a1bd0.png" title=" brandon clicks on Country (completed)" width="1366"/>
+                <img src="a328f4984341df4e8a0db7d4438364db922a28ce11c07aa539a0ade2560a1bd0.png" title=" brandon select Colombia on Country" width="1366"/>
+                <img src="a328f4984341df4e8a0db7d4438364db922a28ce11c07aa539a0ade2560a1bd0.png" title=" brandon select Colombia on Country (completed)" width="1366"/>
+                <img src="a328f4984341df4e8a0db7d4438364db922a28ce11c07aa539a0ade2560a1bd0.png" title=" brandon clicks on Selec country combobox" width="1366"/>
+                <img src="486026b6157f86fd604c1dddb91971c737551def2737b2d5a77891108885e5c1.png" title=" brandon clicks on Selec country combobox (completed)" width="1366"/>
+                <img src="486026b6157f86fd604c1dddb91971c737551def2737b2d5a77891108885e5c1.png" title=" brandon enters 'Australia' into Selec country option" width="1366"/>
+                <img src="3fb66040a8893cabb4818daa27a8b18b455bfdcdf28970e68c6f4cc49e1629c2.png" title=" brandon enters 'Australia' into Selec country option (completed)" width="1366"/>
+                <img src="de08bb9c4d69a53457384d1a348b0f7b260c48a99127181c6caf227e11f70d81.png" title=" brandon clicks on Year birth" width="1366"/>
+                <img src="e8dd6731b4a2758ca02964f2e203d61fd2c1a823773530eb188a61edee1ada65.png" title=" brandon clicks on Year birth (completed)" width="1366"/>
+                <img src="e8dd6731b4a2758ca02964f2e203d61fd2c1a823773530eb188a61edee1ada65.png" title=" brandon select 1986 on Year birth" width="1366"/>
+                <img src="e8dd6731b4a2758ca02964f2e203d61fd2c1a823773530eb188a61edee1ada65.png" title=" brandon select 1986 on Year birth (completed)" width="1366"/>
+                <img src="e8dd6731b4a2758ca02964f2e203d61fd2c1a823773530eb188a61edee1ada65.png" title=" brandon clicks on Month birth" width="1366"/>
+                <img src="8b9e1826d57bff706a6038000845b63d91d8aa3d9a034dadc66defccf383da32.png" title=" brandon clicks on Month birth (completed)" width="1366"/>
+                <img src="8b9e1826d57bff706a6038000845b63d91d8aa3d9a034dadc66defccf383da32.png" title=" brandon select March on Month birth" width="1366"/>
+                <img src="682a0361f78308869965498ad6b5690e443451d6e3877648613f1fd9cf4f3a7f.png" title=" brandon select March on Month birth (completed)" width="1366"/>
+                <img src="682a0361f78308869965498ad6b5690e443451d6e3877648613f1fd9cf4f3a7f.png" title=" brandon clicks on Day birth" width="1366"/>
+                <img src="fc05b17c5a493e2fd0b48e132bb618b81b989dfdc097d73fd43984cfe0770c7b.png" title=" brandon clicks on Day birth (completed)" width="1366"/>
+                <img src="fc05b17c5a493e2fd0b48e132bb618b81b989dfdc097d73fd43984cfe0770c7b.png" title=" brandon select 10 on Day birth" width="1366"/>
+                <img src="fc05b17c5a493e2fd0b48e132bb618b81b989dfdc097d73fd43984cfe0770c7b.png" title=" brandon select 10 on Day birth (completed)" width="1366"/>
+                <img src="fc05b17c5a493e2fd0b48e132bb618b81b989dfdc097d73fd43984cfe0770c7b.png" title=" brandon enters 'Jonalv10+' into Password" width="1366"/>
+                <img src="924e4eb9e89067b27343a989aa0cf1150a523bcfc554e845f019d933fefe2888.png" title=" brandon enters 'Jonalv10+' into Password (completed)" width="1366"/>
+                <img src="924e4eb9e89067b27343a989aa0cf1150a523bcfc554e845f019d933fefe2888.png" title=" brandon enters 'Jonalv10+' into confirm password" width="1366"/>
+                <img src="2c7ab757342f17b41befcf090b7f737bf9bc61428a2203aba3b1ab8f1760b3f0.png" title=" brandon enters 'Jonalv10+' into confirm password (completed)" width="1366"/>
+                <img src="2c7ab757342f17b41befcf090b7f737bf9bc61428a2203aba3b1ab8f1760b3f0.png" title=" brandon clicks on Upload Register" width="1366"/>
+                <img src="9a0889bbe884b817c6497ebc8eea150032f42a5df99294af716115c54f7b26dd.png" title=" brandon clicks on Upload Register (completed)" width="1366"/>
+                <img src="9a0889bbe884b817c6497ebc8eea150032f42a5df99294af716115c54f7b26dd.png" title=" Brandon first step register (completed)" width="1366"/>
+                <img src="9a0889bbe884b817c6497ebc8eea150032f42a5df99294af716115c54f7b26dd.png" title=" When brandon fills out the form for the respective registration
+| firstName | lastName | address | emailaddress | phone | languages | skills | country | selectcountry | yearbirth | monthbirth | daybirth | password |
+| John | Alvarez | Calle 70 | jonalv@gmail.com | 3104500101 | English | Java | Colombia | Australia | 1986 | March | 10 | Jonalv10+ | (completed)" width="1366"/>
+                <img src="9a0889bbe884b817c6497ebc8eea150032f42a5df99294af716115c54f7b26dd.png" title=" Then brandon finally completes his registration successfully: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
